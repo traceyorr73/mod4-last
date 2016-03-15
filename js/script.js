@@ -203,10 +203,12 @@ function buildCategoriesViewHtml(categories,
   for (var i = 0; i < categories.length; i++) {
     // Insert category values
     var html = categoryHtml;
+    console.log('cat 1' + html)
     var name = "" + categories[i].name;
     var short_name = categories[i].short_name;
     html = 
       insertProperty(html, "name", name);
+          console.log('cat 1' + html)
     html = 
       insertProperty(html, 
                      "short_name",
