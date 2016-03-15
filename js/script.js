@@ -240,6 +240,7 @@ function buildAndShowMenuItemsHTML (categoryMenuItems) {
             buildMenuItemsViewHtml(categoryMenuItems, 
                                    menuItemsTitleHtml,
                                    menuItemHtml);
+          console.log("menu " + menuItemsViewHtml)
           insertHtml("#main-content", menuItemsViewHtml);
         },
         false);
